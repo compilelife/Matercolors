@@ -439,8 +439,9 @@ function Yd(a, B, accent) {
 export function createPallete(a, accent) {
   const refPalletes = accent ? KdA : Kd;
   const refColor = accent ? 2 : 5;
-  let b;
-  b = b === undefined ? refPalletes : b;
+  //let b;
+  //b = b === undefined ? refPalletes : b;
+  let b = refPalletes;
   const c = Ed(a);
   let
     d = Yd(c, b, accent);
